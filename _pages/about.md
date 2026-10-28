@@ -12,7 +12,7 @@ PhD candidate in Theoretical Physics, George Washington University<br>
 Advisor: Neil F. Johnson
 </p>
 
-<p class="home-interests">Statistical physics · Dynamical systems · Mathematics of AI · AI safety</p>
+<p class="home-interests">Statistical physics and dynamical systems, with applications to AI safety</p>
 
 <p class="home-links">
 {% if site.author.email %}<a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>{% else %}Email {% include verify.html %}{% endif %}
