@@ -65,6 +65,11 @@ body {
 
 .home-links {
   font-size: $type-size-5;
+
+  // The sidebar already shows these links on wider screens
+  @include breakpoint($large) {
+    display: none;
+  }
 }
 
 .page-lede {
