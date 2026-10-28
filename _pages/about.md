@@ -9,7 +9,7 @@ redirect_from:
 
 <p class="home-affil">
 PhD candidate in Theoretical Physics, George Washington University<br>
-Advisor: Neil F. Johnson · Expected completion: {% include verify.html note="date" %}
+Advisor: Neil F. Johnson
 </p>
 
 <p class="home-interests">Statistical physics · Dynamical systems · Mathematics of AI · AI safety</p>
