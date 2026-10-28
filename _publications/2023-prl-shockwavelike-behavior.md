@@ -7,6 +7,5 @@ volume: "130"
 details: "237401"
 year: 2023
 date: 2023-06-05
-selected: 4
 doi: "10.1103/PhysRevLett.130.237401"
 ---

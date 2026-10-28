@@ -20,7 +20,8 @@ grep -rn "VERIFY" _config.yml _pages _publications _talks
 | Photo | Add `images/profile.jpg` (the Google Scholar photo), then set `avatar: "profile.jpg"` in `_config.yml`. |
 | Public email | `email:` in `_config.yml`. It then appears in the sidebar and on the home page. |
 | CV PDF | Upload it as `files/Huo_CV.pdf`. The CV links switch on automatically once the file exists. |
-| Expected completion date, official degree name | `_pages/about.md` and `_pages/cv.md` |
+| Expected completion date | `_pages/about.md` and `_pages/cv.md` |
+| Official degree name | `_pages/cv.md` |
 | Research paragraph (draft) | `_pages/about.md`. Check the wording, then delete the `[VERIFY]` include after it. |
 | TA years, course numbers and semesters, ratings, Bennhold Award year | `_pages/teaching.md` (TA years and award year also appear in `_pages/about.md`) |
 | Weiss Prize, Parke Prize details | `_pages/cv.md` |
@@ -34,8 +35,8 @@ All content is Markdown, with settings in YAML front matter at the top of each f
 
 | Page | File |
 | --- | --- |
-| Home | `_pages/about.md` |
-| Publications | one file per item in `_publications/`. The Code and In the media sections are in `_pages/publications.md`. |
+| Home | `_pages/about.md`: short paragraphs written by hand, including the selected publications |
+| Publications | one file per item in `_publications/`. The In the media section is in `_pages/publications.md`. |
 | Teaching | `_pages/teaching.md` |
 | Talks | one file per talk in `_talks/` |
 | CV | `_pages/cv.md` and `files/Huo_CV.pdf` |
@@ -62,7 +63,6 @@ publisher_url: "https://..."          # optional
 pdf: "/files/paper.pdf"               # optional
 note: "One-line note shown in italics" # optional
 equal_contribution: true              # optional; adds the "† Equal contribution" footnote. Put † after the names in `authors`.
-selected: 2                           # optional; shows it on the home page, in this order
 ---
 ```
 

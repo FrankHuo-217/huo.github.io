@@ -7,11 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<p class="home-affil">
-PhD candidate in Theoretical Physics, George Washington University<br>
-Advisor: Neil F. Johnson
-</p>
-
 <p class="home-interests">Exactly solvable many-body dynamics, from complex networks to Transformer AI</p>
 
 <p class="home-links">
@@ -20,24 +15,10 @@ Advisor: Neil F. Johnson
 · {% include cv-link.html label="CV" %}
 </p>
 
-## Research
+I am a PhD candidate in Theoretical Physics at George Washington University, advised by Neil F. Johnson, and expect to complete my PhD in {% include verify.html note="month and year" %}. Before that, I studied at Pembroke College, University of Cambridge, where I received the BA, MA and MMath (Part III of the Mathematical Tripos).
 
 I develop exactly solvable models of collective dynamics in complex systems, currently focused on the dynamics of Transformer-based AI. By mapping the attention mechanism onto a multispin system, I derive closed-form conditions for when a model's output tips between competing basins of behavior, governed by dot-product competition between the context and those basins. I use a vector generalization of fusion–fission dynamics to track how these basins form as tokens propagate through the network. Earlier work developed multi-species fusion–fission theory for the assembly and breakup of groups online and offline ([PRL 2023]({{ "/publications/#2023-prl-shockwavelike-behavior" | relative_url }}), [2024]({{ "/publications/#2024-prl-multispecies-cohesion" | relative_url }})). This theory, with substantial new results, is developed in my [Oxford University Press book]({{ "/publications/#2025-book-introduction-to-online-complexity" | relative_url }}). {% include verify.html note="draft paragraph: check wording" %}
 
-## Selected publications
+Selected publications include my book [*Introduction to Online Complexity: The New Social Physics of Extremes, Misinformation, and AI*]({{ "/publications/#2025-book-introduction-to-online-complexity" | relative_url }}) (Oxford University Press, 2025), of which I am lead author and which contains substantial original research beyond my published papers, and, on Transformer dynamics, [*Competition for attention predicts good-to-bad tipping in AI*]({{ "/publications/#2026-patterns-competition-for-attention" | relative_url }}) (*Patterns*, 2026; equal contribution with Neil F. Johnson), [*Simple picture of how output from ChatGPT-like AI shifts from good to bad*]({{ "/publications/#2026-pnas-nexus-good-to-bad" | relative_url }}) (*PNAS Nexus*, 2026) and [*Physics of generative AI's atom: Repetition, bias, and beyond*]({{ "/publications/#2026-aip-advances-generative-ai-atom" | relative_url }}) (*AIP Advances*, 2026). [All publications →]({{ "/publications/" | relative_url }})
 
-{% assign selected = site.publications | where_exp: "p", "p.selected" | sort: "selected" %}
-{% include publication-list.html pubs=selected %}
-
-[All publications →]({{ "/publications/" | relative_url }})
-
-## Teaching
-
-Teaching assistant in the Department of Physics at George Washington University for five years {% include verify.html note="years" %}, in **Nonlinear Dynamics** (instructor: Prof. Neil Johnson) and **General Physics**. I run office hours as Cambridge-style small-group supervisions: students work through problems themselves, and I diagnose where their understanding breaks down. Recipient of the **Bennhold Family Award** for best graduate-student teaching {% include verify.html note="year" %}.
-
-[More on teaching →]({{ "/teaching/" | relative_url }})
-
-## Education
-
-- **PhD in Physics** {% include verify.html note="official degree name" %}, George Washington University, expected {% include verify.html note="date" %}. Advisor: Neil F. Johnson.
-- **BA, MA and MMath (Part III of the Mathematical Tripos)**, Pembroke College, University of Cambridge.
+For five years {% include verify.html note="years" %} I have been a teaching assistant in the Department of Physics at George Washington University, in Nonlinear Dynamics and General Physics. I run office hours as Cambridge-style small-group supervisions, where students work through problems themselves and I diagnose where their understanding breaks down. I received the Bennhold Family Award for best graduate-student teaching {% include verify.html note="year" %}. [More on teaching →]({{ "/teaching/" | relative_url }})

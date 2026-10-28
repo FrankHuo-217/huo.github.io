@@ -6,7 +6,6 @@ category: articles
 venue: "Patterns"
 year: 2026
 date: 2026-10-08
-selected: 2
 details: "in press"
 doi: "10.1016/j.patter.2026.101666"
 arxiv: "2602.14370"

@@ -7,7 +7,6 @@ volume: "133"
 details: "247401"
 year: 2024
 date: 2024-12-10
-selected: 3
 doi: "10.1103/PhysRevLett.133.247401"
 arxiv: "2401.17410"
 ---
