@@ -29,7 +29,7 @@ author:
   location         :
   employer         : "George Washington University"
   uri              :
-  email            : # [VERIFY] public email address, e.g. "name@gwu.edu"
+  email            : "yfh400@gwu.edu" # Shown in the sidebar and the home page links
   cv               : "/files/Huo_CV.pdf" # Upload the PDF to this path; the CV links switch on automatically.
 
   # Academic websites
