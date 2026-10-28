@@ -25,6 +25,8 @@ grep -rn "VERIFY" _config.yml _pages _publications _talks
 | TA years, course numbers and semesters, ratings, Bennhold Award year | `_pages/teaching.md` (TA years and award year also appear in `_pages/about.md`) |
 | Weiss Prize, Parke Prize details | `_pages/cv.md` |
 | SIAM Annual Meeting 2026 talk title, other talks | `_talks/` |
+| Links for The Independent and El País articles | "In the media" in `_pages/publications.md` |
+| "Basic attention head" author order; whether to keep the IntechOpen paper, and its DOI | `_publications/2025-aaiml-basic-attention-head.md`, `_publications/2026-intechopen-hidden-tipping.md` |
 | Code repositories | "Code" section of `_pages/publications.md`. Delete the section if there are none. |
 
 ## Editing content
@@ -80,7 +82,7 @@ session: "Minisymposium name"   # optional
 location: "City"                # optional
 date: 2026-07-08                # used for ordering
 date_display: "July 2026"       # optional; how the date is printed
-url: "https://..."              # optional link to the program entry
+link: "https://..."             # optional link to the program entry
 slides: "/files/slides.pdf"     # optional
 ---
 ```

@@ -6,5 +6,6 @@ venue: "Sci. Rep."
 volume: "14"
 details: "21911"
 year: 2024
-date: 2024-09-01
+date: 2024-09-19
+doi: "10.1038/s41598-024-72538-1"
 ---

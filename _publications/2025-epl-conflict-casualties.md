@@ -6,5 +6,6 @@ venue: "EPL"
 volume: "151"
 details: "12001"
 year: 2025
-date: 2025-07-01
+date: 2025-07-16
+doi: "10.1209/0295-5075/ade8a1"
 ---

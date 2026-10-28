@@ -24,9 +24,21 @@
   font-weight: normal;
 }
 
-/* Footer follows the content instead of being fixed to the bottom of the viewport */
+/* Footer follows the content instead of being fixed to the bottom of the viewport.
+   The template's JS reserves body margin for a fixed footer, so cancel that, and keep
+   short pages tall enough that the footer stays below the fixed desktop sidebar. */
 .page__footer {
   position: static;
+}
+
+body {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (min-width: $sidebar-screen-min-width) {
+  #main {
+    min-height: calc(100vh - #{$masthead-height} - 8em);
+  }
 }
 
 /* Let long sidebar entries (affiliation, placeholders) wrap instead of being cut off */
@@ -76,7 +88,8 @@
   }
 }
 
-.pub__title {
+.pub__title,
+.talk__title {
   font-weight: 600;
 
   a {
