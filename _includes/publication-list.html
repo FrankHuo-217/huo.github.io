@@ -1,0 +1,9 @@
+{% comment %}
+  A list of publications, newest first, with a footnote if any entry has equal_contribution: true.
+  Parameter: pubs (an array of documents from _publications/).
+{% endcomment %}{% assign pubs = include.pubs %}
+{% assign equal_contrib = pubs | where: "equal_contribution", true | size %}
+<ul class="pubs">
+{% for pub in pubs %}{% include publication.html pub=pub %}{% endfor %}
+</ul>
+{% if equal_contrib > 0 %}<p class="pub__footnote">† Equal contribution.</p>{% endif %}

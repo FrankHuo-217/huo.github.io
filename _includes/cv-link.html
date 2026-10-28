@@ -1,0 +1,5 @@
+{% comment %}
+  Link to the CV PDF set in _config.yml (author.cv). Until that file exists in the
+  repository, a [VERIFY] placeholder is shown instead of a broken link.
+  Optional parameter: label.
+{% endcomment %}{% assign cv_label = include.label | default: "CV (PDF)" %}{% assign cv_file = site.static_files | where: "path", site.author.cv | first %}{% if cv_file %}<a href="{{ site.author.cv | relative_url }}">{{ cv_label }}</a>{% else %}{{ cv_label }} {% include verify.html note="upload PDF to files/Huo_CV.pdf" %}{% endif %}
