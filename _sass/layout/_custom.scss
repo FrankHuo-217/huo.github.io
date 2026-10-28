@@ -46,6 +46,17 @@ body {
   white-space: normal;
 }
 
+/* ORCID iD icon next to the sidebar name, in ORCID's brand green */
+.author__orcid {
+  color: #a6ce39;
+  font-size: 0.9em;
+  text-decoration: none;
+
+  &:hover {
+    color: #8db32a;
+  }
+}
+
 .author__photo-note {
   margin: 0.25em 0 0;
   text-align: center;

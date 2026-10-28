@@ -15,10 +15,9 @@ Advisor: Neil F. Johnson
 <p class="home-interests">Exactly solvable many-body dynamics, from complex networks to Transformer AI</p>
 
 <p class="home-links">
-{% if site.author.email %}<a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>{% else %}Email {% include verify.html %}{% endif %}
+{% include cv-link.html label="CV" %}
+· {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{% else %}Email {% include verify.html %}{% endif %}
 · <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-· {% include cv-link.html %}
-· <a href="https://github.com/{{ site.author.github }}">GitHub</a>
 </p>
 
 ## Research

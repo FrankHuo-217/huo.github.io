@@ -35,10 +35,10 @@ author:
   # Academic websites
   arxiv            :
   googlescholar    : "https://scholar.google.com/citations?user=E8-pCt8AAAAJ"
-  orcid            : # URL, e.g. "https://orcid.org/0000-0000-0000-0000"
+  orcid            : "https://orcid.org/0009-0008-2840-7204" # Shown as a small iD icon next to the name
 
-  # Repositories and software development
-  github           : "FrankHuo-217"
+  # Repositories and software development (blank: no GitHub link is shown)
+  github           :
 
 # Publication categories, in the order they appear on the Publications page.
 # Each file in _publications/ sets `category:` to one of these keys.
@@ -81,7 +81,7 @@ social:
   name                   :
   links:
     - "https://scholar.google.com/citations?user=E8-pCt8AAAAJ"
-    - "https://github.com/FrankHuo-217"
+    - "https://orcid.org/0009-0008-2840-7204"
 
 
 # Analytics
