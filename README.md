@@ -40,7 +40,7 @@ All content is Markdown, with settings in YAML front matter at the top of each f
 | Teaching | `_pages/teaching.md` |
 | Talks | one file per talk in `_talks/` |
 | CV | `_pages/cv.md` and `files/Huo_CV.pdf` |
-| Sidebar, site title, links | `_config.yml` |
+| Sidebar, site title, links, research interests line (`tagline`) | `_config.yml` |
 | Header menu | `_data/navigation.yml` |
 
 ### Add a publication

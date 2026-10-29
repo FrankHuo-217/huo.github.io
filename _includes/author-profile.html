@@ -19,6 +19,7 @@
     <h3 class="author__name"><span itemprop="name">{{ author.name }}</span>{% if author.orcid %} <a class="author__orcid" href="{{ author.orcid }}" title="ORCID iD" aria-label="ORCID iD" itemprop="sameAs"><i class="ai ai-orcid" aria-hidden="true"></i></a>{% endif %}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio" itemprop="jobTitle">{{ author.bio }}</p>{% endif %}
+    {% if author.tagline %}<p class="author__tagline">{{ author.tagline }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">

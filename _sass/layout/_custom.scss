@@ -63,9 +63,26 @@ body {
 }
 
 /* Home page */
+/* Research interests line (author.tagline): under the name on narrow screens,
+   in the sidebar (.author__tagline) on wider ones */
 .home-interests {
   margin-bottom: 0.5em;
   font-style: italic;
+
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
+.author__tagline {
+  display: none;
+  font-style: italic;
+
+  @include breakpoint($large) {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 }
 
 .home-links {

@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p class="home-interests">Exactly solvable many-body dynamics, from complex networks to Transformer AI</p>
+<p class="home-interests">{{ site.author.tagline }}</p>
 
 <p class="home-links">
 {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{% else %}Email {% include verify.html %}{% endif %}

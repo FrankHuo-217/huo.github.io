@@ -26,6 +26,7 @@ author:
   citation_name    : "F. Y. Huo" # Set in bold in publication lists
   pronouns         :
   bio              : "PhD candidate in Theoretical Physics"
+  tagline          : "Exactly solvable many-body dynamics, from complex networks to Transformer AI" # Research interests line: in the sidebar on wide screens, under the name on the home page on phones
   location         :
   employer         : "George Washington University"
   uri              :
