@@ -16,7 +16,7 @@ redirect_from:
 
 ## Awards and fellowships
 
-- **Columbian Distinguished Fellowship**, George Washington University, {% include verify.html note="years, e.g. 2021–2027" %}
+- **Columbian Distinguished Fellowship**, Columbian College of Arts and Sciences, George Washington University, {% include verify.html note="years, e.g. 2021–2027" %}
 - **Bennhold Family Award** for best graduate-student teaching, 2022
 - **Bouchet Graduate Honor Society** {% include verify.html note="exact name and year of induction" %}
 - **Weiss Prize** {% include verify.html note="awarding body and year" %}
