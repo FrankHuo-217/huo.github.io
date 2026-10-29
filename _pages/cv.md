@@ -10,7 +10,7 @@ redirect_from:
 
 ## Education
 
-- **PhD in Physics** {% include verify.html note="official degree name" %}, George Washington University, expected {% include verify.html note="date" %}. Advisor: Neil F. Johnson.
+- **PhD in Physics** {% include verify.html note="official degree name" %}, George Washington University, expected May 2027. Advisor: Neil F. Johnson.
 - **MMath (Part III of the Mathematical Tripos)**, Pembroke College, University of Cambridge, {% include verify.html note="year" %}
 - **BA in Physics (Natural Sciences Tripos)**, Pembroke College, University of Cambridge, {% include verify.html note="year" %}; MA (Cantab) {% include verify.html note="year" %}
 
