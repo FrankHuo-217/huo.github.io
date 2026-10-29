@@ -21,7 +21,7 @@ grep -rn "VERIFY" _config.yml _pages _publications _talks
 | Public email | `email:` in `_config.yml`. It then appears in the sidebar and on the home page. |
 | CV PDF | Upload it as `files/Huo_CV.pdf`. The CV links switch on automatically once the file exists. |
 | Expected completion date | `_pages/about.md` and `_pages/cv.md` |
-| Official degree name | `_pages/cv.md` |
+| Official degree name; years of the Cambridge degrees | `_pages/cv.md` |
 | Research paragraph (draft) | `_pages/about.md`. Check the wording, then delete the `[VERIFY]` include after it. |
 | TA years, course numbers and semesters, ratings, Bennhold Award year | `_pages/teaching.md` (TA years and award year also appear in `_pages/about.md`) |
 | Weiss Prize, Parke Prize details | `_pages/cv.md` |
