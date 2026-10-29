@@ -22,7 +22,7 @@ grep -rn "VERIFY" _config.yml _pages _publications _talks
 | CV PDF | Upload it as `files/Huo_CV.pdf`. The CV links switch on automatically once the file exists. |
 | Official degree name; years of the Cambridge degrees | `_pages/cv.md` |
 | Research paragraph (draft) | `_pages/about.md`. Check the wording, then delete the `[VERIFY]` include after it. |
-| TA years, course numbers and semesters, ratings, Bennhold Award year | `_pages/teaching.md` (TA years and award year also appear in `_pages/about.md`) |
+| TA years, course numbers and semesters, Bennhold Award year | `_pages/teaching.md` (TA years and award year also appear in `_pages/about.md`) |
 | Weiss Prize, Parke Prize details | `_pages/cv.md` |
 | SIAM Annual Meeting 2026 talk title, other talks | `_talks/` |
 | Links for The Independent and El País articles | "In the media" in `_pages/publications.md` |
