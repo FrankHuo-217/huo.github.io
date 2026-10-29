@@ -16,7 +16,7 @@ redirect_from:
 
 ## Awards
 
-- **Bennhold Family Award** for best graduate-student teaching {% include verify.html note="year" %}
+- **Bennhold Family Award** for best graduate-student teaching, 2022
 - **Weiss Prize** {% include verify.html note="awarding body and year" %}
 - **Parke Prize** {% include verify.html note="awarding body and year" %}
 

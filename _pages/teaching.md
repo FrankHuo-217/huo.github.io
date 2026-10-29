@@ -24,7 +24,7 @@ Five years, {% include verify.html note="years, e.g. 2021–2026" %}
 
 ### Recognition
 
-- **Bennhold Family Award** for best graduate-student teaching, {% include verify.html note="year" %}.
+- **Bennhold Family Award** for best graduate-student teaching, 2022.
 - Student ratings consistently above the department average.
 
 ### Prepared to teach
