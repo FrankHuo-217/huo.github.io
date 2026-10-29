@@ -35,7 +35,7 @@ All content is Markdown, with settings in YAML front matter at the top of each f
 
 | Page | File |
 | --- | --- |
-| Home | `_pages/about.md`: short paragraphs written by hand, including the selected publications |
+| Home | `_pages/about.md`: short paragraphs written by hand, with links to individual papers on the Publications page |
 | Publications | one file per item in `_publications/`. The In the media section is in `_pages/publications.md`. |
 | Teaching | `_pages/teaching.md` |
 | Talks | one file per talk in `_talks/` |
