@@ -18,7 +18,7 @@ Five years, {% include verify.html note="years, e.g. 2021–2026" %}
 
 ### Role
 
-- **Office hours as supervisions.** I run office hours as Cambridge-style small-group supervisions: students work through problems themselves, and I diagnose where their understanding breaks down.
+- **Office hours as supervisions.** Having been taught through Cambridge's supervision system myself, I run office hours as small-group supervisions: students work through problems themselves, and I diagnose where their understanding breaks down.
 - **Class discussions.** I led class discussions in Nonlinear Dynamics.
 - **Assessment.** I graded exams and problem sets.
 
