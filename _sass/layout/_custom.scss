@@ -94,6 +94,11 @@ body {
   }
 }
 
+/* First paragraph of the home page: extra space below the name */
+.page__content .home-intro {
+  margin-top: 1.5em;
+}
+
 .page-lede {
   color: var(--global-text-color-light);
 }
