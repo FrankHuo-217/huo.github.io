@@ -14,9 +14,11 @@ redirect_from:
 - **MMath (Part III of the Mathematical Tripos)**, Pembroke College, University of Cambridge, {% include verify.html note="year" %}
 - **BA in Physics (Natural Sciences Tripos)**, Pembroke College, University of Cambridge, {% include verify.html note="year" %}; MA (Cantab) {% include verify.html note="year" %}
 
-## Awards
+## Awards and fellowships
 
+- **Columbian Distinguished Fellowship**, George Washington University, {% include verify.html note="years, e.g. 2021–2027" %}
 - **Bennhold Family Award** for best graduate-student teaching, 2022
+- **Bouchet Graduate Honor Society** {% include verify.html note="exact name and year of induction" %}
 - **Weiss Prize** {% include verify.html note="awarding body and year" %}
 - **Parke Prize** {% include verify.html note="awarding body and year" %}
 
