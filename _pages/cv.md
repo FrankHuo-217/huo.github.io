@@ -12,14 +12,14 @@ redirect_from:
 ## Education
 
 - **PhD in Physics**, George Washington University, expected May 2027. Columbian Distinguished Fellow. Advisor: Neil F. Johnson.
-- **MMath (Part III of the Mathematical Tripos)** and **BA in Physics (Natural Sciences Tripos)**, Pembroke College, University of Cambridge, 2021; MA (Cantab), 2025
+- **MMath (Part III of the Mathematical Tripos)** and **BA in Physics (Natural Sciences Tripos)**, Pembroke College, University of Cambridge, 2021; MA (Cantab), 2025. Foundation Scholar; Foundress Prize.
 
-## Awards and fellowships
+## Awards and honors
 
-- **Bennhold Family Award** for best graduate-student teaching, 2022
-- **Bouchet Graduate Honor Society** {% include verify.html note="exact name and year of induction" %}
-- **Weiss Prize** {% include verify.html note="awarding body and year" %}
-- **Parke Prize** {% include verify.html note="awarding body and year" %}
+- **Gus W. Weiss Prize** for Outstanding Student in Physics, George Washington University, 2026
+- **Parke Prize** for Excellence in Theoretical Physics, George Washington University, 2024
+- **Bennhold Family Award** for best graduate-student teaching, George Washington University, 2022
+- **Scholar**, [Edward A. Bouchet Graduate Honor Society](https://columbian.gwu.edu/edward-alexander-bouchet-graduate-honor-society), {% include verify.html note="year" %}
 
 ## Talks
 
