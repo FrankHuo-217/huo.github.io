@@ -5,7 +5,7 @@ Personal academic site built with the [Academic Pages](https://github.com/academ
 ## One-time setup
 
 1. **Turn on Pages:** in the repository, go to Settings → Pages → Build and deployment → Source and choose **GitHub Actions**. Every push to `main` then rebuilds and deploys the site. Pull requests are built as a check but not deployed.
-2. **Pick the address (optional):** GitHub serves a repository named `huo.github.io` at `https://frankhuo-217.github.io/huo.github.io/`. To serve it at `https://frankhuo-217.github.io/` instead, rename the repository to `FrankHuo-217.github.io`. Nothing else needs to change, because the workflow sets the base path automatically.
+2. **Address:** the repository is named `yingjiehuo.github.io`, so GitHub serves the site at `https://yingjiehuo.github.io/`. If the account or repository is ever renamed, update `url` and `repository` in `_config.yml`; the workflow sets the base path automatically.
 
 ## Before launch: clear every `[VERIFY]`
 

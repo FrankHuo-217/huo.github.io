@@ -13,9 +13,9 @@ title                    : "Frank Yingjie Huo"
 title_separator          : "-"
 name                     : &name "Frank Yingjie Huo"
 description              : &description "Frank Yingjie Huo, PhD candidate in Theoretical Physics at George Washington University. Exactly solvable models of collective dynamics, including the dynamics of Transformer-based AI."
-url                      : https://frankhuo-217.github.io
+url                      : https://yingjiehuo.github.io
 baseurl                  : "" # The GitHub Actions workflow sets this automatically when the site is built for GitHub Pages.
-repository               : "FrankHuo-217/huo.github.io"
+repository               : "yingjiehuo/yingjiehuo.github.io"
 
 # Site Author: controls the sidebar. Blank fields are hidden.
 author:
