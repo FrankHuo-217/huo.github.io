@@ -16,8 +16,8 @@ redirect_from:
 
 ## Awards and honors
 
-- **Gus W. Weiss Prize** for Outstanding Student in Physics, George Washington University, 2026
 - **Scholar**, [Edward A. Bouchet Graduate Honor Society](https://columbian.gwu.edu/edward-alexander-bouchet-graduate-honor-society), 2026
+- **Gus W. Weiss Prize** for Outstanding Student in Physics, George Washington University, 2026
 - **Parke Prize** for Excellence in Theoretical Physics, George Washington University, 2024
 - **Bennhold Family Award** for best graduate-student teaching, George Washington University, 2022
 
