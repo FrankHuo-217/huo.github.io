@@ -1,6 +1,5 @@
 ---
-title: ""
-title_verify: "talk title"
+title: "Online network dynamics ahead of offline shocks: The math of cohesion in human–machine–AI systems"
 type: "Invited talk"
 venue: "SIAM Annual Meeting (AN26)"
 location: "Cleveland"

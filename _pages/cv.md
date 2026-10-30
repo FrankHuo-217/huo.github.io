@@ -16,6 +16,7 @@ redirect_from:
 
 ## Awards and honors
 
+- **SIAM Student Travel Award**, SIAM Annual Meeting (AN26), 2026
 - **Scholar**, [Edward A. Bouchet Graduate Honor Society](https://columbian.gwu.edu/edward-alexander-bouchet-graduate-honor-society), 2026
 - **Gus W. Weiss Prize** for Outstanding Student in Physics, George Washington University, 2026
 - **Parke Prize** for Excellence in Theoretical Physics, George Washington University, 2024
@@ -29,7 +30,7 @@ redirect_from:
 {% for talk in talks %}{% include talk.html talk=talk %}{% endfor %}
 </ul>
 
-{% include verify.html note="add any other talks listed on the CV" %}
+{% include verify.html note="departmental talk: title, date, seminar series" %}
 
 ## Refereeing
 

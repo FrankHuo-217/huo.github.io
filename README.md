@@ -21,7 +21,7 @@ grep -rn "VERIFY" _config.yml _pages _publications _talks
 | Public email | `email:` in `_config.yml`. It then appears in the sidebar and on the home page. |
 | CV PDF | Upload it as `files/Huo_CV.pdf`. The CV links switch on automatically once the file exists. |
 | Research paragraph (draft) | `_pages/about.md`. Check the wording, then delete the `[VERIFY]` include after it. |
-| SIAM Annual Meeting 2026 talk title, other talks | `_talks/` |
+| Departmental talk: title, date and seminar series | `_talks/` |
 
 ## Editing content
 
