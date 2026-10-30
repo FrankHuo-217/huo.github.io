@@ -1,0 +1,66 @@
+{% include base_path %}
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    {% if author.avatar contains "://" %}
+    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+    {% else %}
+    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+    {% endif %}
+    {% if author.avatar == "profile.png" %}<p class="author__photo-note">{% include verify.html note="photo" %}</p>{% endif %}
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name"><span itemprop="name">{{ author.name }}</span>{% if author.orcid %} <a class="author__orcid" href="{{ author.orcid }}" title="ORCID iD" aria-label="ORCID iD" itemprop="sameAs"><i class="ai ai-orcid" aria-hidden="true"></i></a>{% endif %}</h3>
+    {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio" itemprop="jobTitle">{{ author.bio }}</p>{% endif %}
+    {% if author.tagline %}<p class="author__tagline">{{ author.tagline }}</p>{% endif %}
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Links</button>
+    <ul class="author__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      {% if author.location %}
+        <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+      {% endif %}
+      {% if author.employer %}
+        <li class="author__desktop" itemprop="affiliation"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+      {% endif %}
+      {% if author.uri %}
+        <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
+      {% endif %}
+      {% if author.email %}
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ author.email }}</a></li>
+      {% else %}
+        <li><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>Email {% include verify.html %}</li>
+      {% endif %}
+
+      <!-- Academicons / Academic websites -->
+      {% if author.arxiv %}
+        <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
+      {% endif %}
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
+      {% endif %}
+      {% if author.cv %}
+        {% assign cv_file = site.static_files | where: "path", author.cv | first %}
+        {% if cv_file %}
+        <li><a href="{{ author.cv | relative_url }}"><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>CV</a></li>
+        {% else %}
+        <li><i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>CV {% include verify.html note="upload PDF to files/Huo_CV.pdf" %}</li>
+        {% endif %}
+      {% endif %}
+
+      <!-- Font Awesome icons / Repositories -->
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+      {% endif %}
+    </ul>
+  </div>
+</div>

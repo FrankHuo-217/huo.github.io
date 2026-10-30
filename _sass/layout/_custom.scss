@@ -1,0 +1,202 @@
+/* ==========================================================================
+   SITE-SPECIFIC STYLES (home page, publication and talk lists, placeholders)
+   ========================================================================== */
+
+/* Show content immediately: no fade-in on page load */
+#main,
+.page__footer,
+.page__hero,
+.page__hero--overlay,
+.breadcrumbs {
+  animation: none;
+}
+
+/* [VERIFY] placeholders: deliberately conspicuous so none are missed before launch */
+.verify {
+  padding: 0 0.3em;
+  border: 1px dashed #c98a00;
+  border-radius: 3px;
+  background: #fff3bf;
+  color: #5c3c00;
+  font-family: $monospace;
+  font-size: 0.8em;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Footer follows the content instead of being fixed to the bottom of the viewport.
+   The template's JS reserves body margin for a fixed footer, so cancel that, and keep
+   short pages tall enough that the footer stays below the fixed desktop sidebar. */
+.page__footer {
+  position: static;
+}
+
+body {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (min-width: $sidebar-screen-min-width) {
+  #main {
+    min-height: calc(100vh - #{$masthead-height} - 8em);
+  }
+}
+
+/* Let long sidebar entries (affiliation, placeholders) wrap instead of being cut off */
+.author__urls li {
+  white-space: normal;
+}
+
+/* ORCID iD icon next to the sidebar name, in ORCID's brand green */
+.author__orcid {
+  color: #a6ce39;
+  font-size: 0.9em;
+  text-decoration: none;
+
+  &:hover {
+    color: #8db32a;
+  }
+}
+
+.author__photo-note {
+  margin: 0.25em 0 0;
+  text-align: center;
+}
+
+/* Home page */
+/* Research interests line (author.tagline): under the name on narrow screens,
+   in the sidebar (.author__tagline) on wider ones */
+.home-interests {
+  margin-bottom: 0.5em;
+  font-style: italic;
+
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
+.author__tagline {
+  display: none;
+  font-style: italic;
+
+  @include breakpoint($large) {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+.home-links {
+  font-size: $type-size-5;
+
+  // The sidebar already shows these links on wider screens
+  @include breakpoint($large) {
+    display: none;
+  }
+}
+
+/* First paragraph of the home page: extra space below the name */
+.page__content .page-intro {
+  margin-top: 1.5em;
+}
+
+.page-lede {
+  color: var(--global-text-color-light);
+}
+
+/* Publication lists */
+.pubs {
+  margin: 0 0 1em;
+  padding-left: 0;
+  list-style: none;
+}
+
+.pub {
+  margin-bottom: 1em;
+  line-height: 1.45;
+
+  span {
+    display: block;
+  }
+}
+
+.pub__title,
+.talk__title {
+  font-weight: 600;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub__authors,
+.pub__venue {
+  font-size: 0.9em;
+}
+
+.pub__note {
+  margin-top: 0.15em;
+  color: var(--global-base-color);
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.pub__footnote {
+  margin-top: -0.5em;
+  font-size: 0.85em;
+}
+
+.pubs-collapsed {
+  margin-top: 1.5em;
+
+  summary {
+    cursor: pointer;
+  }
+
+  summary h2 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+}
+
+/* Talks */
+.talks {
+  padding-left: 0;
+  list-style: none;
+}
+
+.talk {
+  display: flex;
+  margin-bottom: 1em;
+  line-height: 1.45;
+}
+
+.talk__year {
+  flex: none;
+  width: 3.5em;
+  font-weight: 600;
+}
+
+.talk__title,
+.talk__venue {
+  display: block;
+}
+
+.talk__title {
+  font-weight: 600;
+}
+
+.talk__venue {
+  font-size: 0.9em;
+}
+
+/* CV page */
+.cv-download {
+  font-size: $type-size-4;
+}

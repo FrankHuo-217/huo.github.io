@@ -1,0 +1,10 @@
+{% comment %}
+  One talk entry. Parameter: talk (a document from _talks/).
+{% endcomment %}{% assign talk = include.talk %}
+<li class="talk">
+  <span class="talk__year">{{ talk.date | date: "%Y" }}</span>
+  <span class="talk__body">
+    <span class="talk__title">{% if talk.title_verify %}{% include verify.html note=talk.title_verify %}{% elsif talk.link %}<a href="{{ talk.link }}">{{ talk.title }}</a>{% else %}{{ talk.title }}{% endif %}</span>
+    <span class="talk__venue">{% if talk.type %}{{ talk.type }}, {% endif %}{{ talk.venue }}{% if talk.session %}, {{ talk.session }}{% endif %}{% if talk.location %}, {{ talk.location }}{% endif %}{% if talk.date_display %}, {{ talk.date_display }}{% else %}, {{ talk.date | date: "%B %Y" }}{% endif %}{% if talk.slides %} · <a href="{{ talk.slides | relative_url }}">Slides</a>{% endif %}{% if talk.verify %} {% include verify.html note=talk.verify %}{% endif %}</span>
+  </span>
+</li>

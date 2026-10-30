@@ -1,0 +1,194 @@
+# Site configuration for Frank Yingjie Huo's academic homepage.
+# Built on the Academic Pages Jekyll template (https://github.com/academicpages/academicpages.github.io).
+#
+# This file is *not* reloaded by `jekyll serve`; restart the server after editing it.
+#
+# Anything still marked [VERIFY] on the site is a placeholder waiting for real information.
+# See README.md for the checklist.
+
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default" # "default", "air", "sunrise", "mint", "dirt" or "contrast"
+title                    : "Frank Yingjie Huo"
+title_separator          : "-"
+name                     : &name "Frank Yingjie Huo"
+description              : &description "Frank Yingjie Huo, PhD candidate in Theoretical Physics at George Washington University. Exactly solvable models of collective dynamics, including the dynamics of Transformer-based AI."
+url                      : https://yingjiehuo.github.io
+baseurl                  : "" # The GitHub Actions workflow sets this automatically when the site is built for GitHub Pages.
+repository               : "yingjiehuo/yingjiehuo.github.io"
+
+# Site Author: controls the sidebar. Blank fields are hidden.
+author:
+  # Head-and-shoulders photo, stored in /images/. Replace profile.png with the photo
+  # from Google Scholar (e.g. images/profile.jpg) and update this line.
+  avatar           : &avatar "profile.jpg"
+  name             : *name
+  citation_name    : "F. Y. Huo" # Set in bold in publication lists
+  pronouns         :
+  bio              : "PhD candidate in Theoretical Physics"
+  tagline          : "Exactly solvable many-body dynamics, from complex networks to Transformer AI" # Research interests line: in the sidebar on wide screens, under the name on the home page on phones
+  location         :
+  employer         : "George Washington University"
+  uri              :
+  email            : "yfh400@gwu.edu" # Shown in the sidebar and the home page links
+  cv               : "/files/Huo_CV.pdf" # Upload the PDF to this path; the CV links switch on automatically.
+
+  # Academic websites
+  arxiv            :
+  googlescholar    : "https://scholar.google.com/citations?user=E8-pCt8AAAAJ"
+  orcid            : "https://orcid.org/0009-0008-2840-7204" # Shown as a small iD icon next to the name
+
+  # Repositories and software development (blank: no GitHub link is shown)
+  github           :
+
+# Publication categories, in the order they appear on the Publications page.
+# Each file in _publications/ sets `category:` to one of these keys.
+publication_category:
+  book:
+    title: 'Book'
+  articles:
+    title: 'Journal articles'
+  preprints:
+    title: 'Selected preprints'
+  other:
+    title: 'Other publications'
+    collapsed: true
+
+# Site Settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+comments:
+  provider               : false
+atom_feed:
+  hide                   : true
+
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+
+
+# Social Sharing
+twitter:
+  username               :
+og_image                 : *avatar   # Image shown in link previews (lives in /images/)
+og_description           :
+social:
+  type                   : Person
+  name                   :
+  links:
+    - "https://scholar.google.com/citations?user=E8-pCt8AAAAJ"
+    - "https://orcid.org/0009-0008-2840-7204"
+
+
+# Analytics
+analytics:
+  provider               : false
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - README.md
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Collections. Publications and talks are listed on their pages rather than
+# getting a page each, so they are not output individually.
+collections:
+  publications:
+    output: false
+  talks:
+    output: false
+
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Outputting
+permalink: /:categories/:title/
+timezone: America/New_York
+
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
