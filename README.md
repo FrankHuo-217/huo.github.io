@@ -35,7 +35,7 @@ All content is Markdown, with settings in YAML front matter at the top of each f
 | Home | `_pages/about.md`: short paragraphs written by hand. Citations link straight to each paper (DOI, arXiv or publisher), so update them here too when a preprint is published. |
 | Publications | one file per item in `_publications/`. The In the media section is in `_pages/publications.md`. |
 | Teaching | `_pages/teaching.md` |
-| Talks | one file per talk in `_talks/` |
+| Talks (listed on the CV page) | one file per talk in `_talks/` |
 | CV | `_pages/cv.md` and `files/Huo_CV.pdf` |
 | Sidebar, site title, links, research interests line (`tagline`) | `_config.yml` |
 | Header menu | `_data/navigation.yml` |
@@ -107,7 +107,7 @@ Then open http://localhost:4000. The Sass deprecation warnings during the build 
 Compared with the stock Academic Pages template:
 
 - Removed the blog, portfolio, talk map, sample content and the template's own GitHub housekeeping.
-- Publications and talks are listed on their pages; they do not get a page each.
+- Publications are listed on the Publications page and talks on the CV page; they do not get a page each.
 - New includes: `publication.html`, `publication-list.html`, `talk.html`, `cv-link.html`, `verify.html`.
 - Site styles are in `_sass/layout/_custom.scss`. The page-load fade-in is turned off, and the footer follows the content.
 - MathJax is not loaded, and Academicons is served from `assets/` rather than a CDN. The only remaining third-party script is jQuery, which the template needs.

@@ -4,6 +4,7 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+  - /talks/
 ---
 
 <p class="cv-download"><i class="fas fa-file-pdf" aria-hidden="true"></i> {% include cv-link.html label="Download CV (PDF)" %}</p>
@@ -22,12 +23,21 @@ redirect_from:
 - **Weiss Prize** {% include verify.html note="awarding body and year" %}
 - **Parke Prize** {% include verify.html note="awarding body and year" %}
 
+## Talks
+
+{% comment %} Each talk is a Markdown file in _talks/. See README.md. {% endcomment %}
+{% assign talks = site.talks | sort: "date" | reverse %}
+<ul class="talks">
+{% for talk in talks %}{% include talk.html talk=talk %}{% endfor %}
+</ul>
+
+{% include verify.html note="add any other talks listed on the CV" %}
+
 ## Refereeing
 
 Referee for *Physical Review Letters*, *Physical Review E* and *Patterns*.
 
-## Research, teaching and talks
+## Research and teaching
 
 - [Publications]({{ "/publications/" | relative_url }}): one book (Oxford University Press), journal articles including two in *Physical Review Letters*, and preprints.
 - [Teaching]({{ "/teaching/" | relative_url }}): five years as a teaching assistant in physics, including Nonlinear Dynamics.
-- [Talks]({{ "/talks/" | relative_url }}): invited talks at the Joint Mathematics Meetings and the SIAM Annual Meeting.
