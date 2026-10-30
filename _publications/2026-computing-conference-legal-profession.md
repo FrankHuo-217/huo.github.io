@@ -6,5 +6,6 @@ venue: "Intelligent Computing: Proceedings of the 2026 Computing Conference, Vol
 details: "Lecture Notes in Networks and Systems 2064, pp. 161–173, Springer"
 year: 2026
 date: 2026-09-02
+hide: true                            # not listed on the Publications page
 doi: "10.1007/978-3-032-31755-1_12"
 ---

@@ -5,4 +5,5 @@ category: other
 arxiv: "2603.23857"
 year: 2026
 date: 2026-03-25
+hide: true                            # not listed on the Publications page
 ---
