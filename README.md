@@ -7,18 +7,13 @@ Personal academic site built with the [Academic Pages](https://github.com/academ
 1. **Turn on Pages:** in the repository, go to Settings → Pages → Build and deployment → Source and choose **GitHub Actions**. Every push to `main` then rebuilds and deploys the site. Pull requests are built as a check but not deployed.
 2. **Address:** the repository is named `yingjiehuo.github.io`, so GitHub serves the site at `https://yingjiehuo.github.io/`. If the account or repository is ever renamed, update `url` and `repository` in `_config.yml`; the workflow sets the base path automatically.
 
-## Before launch: clear every `[VERIFY]`
+## Placeholders: `[VERIFY]`
 
-Anything unconfirmed is shown on the site as a yellow `[VERIFY: …]` box, so a missed placeholder is easy to spot. To list them all:
+Anything unconfirmed is shown on the site as a yellow `[VERIFY: …]` box, so a missed placeholder is easy to spot. None are left at launch; if you add one later, find them all with:
 
 ```bash
 grep -rn "VERIFY" _config.yml _pages _publications _talks
 ```
-
-| What | Where to change it |
-| --- | --- |
-| Public email | `email:` in `_config.yml`. It then appears in the sidebar and on the home page. |
-| Research paragraph (draft) | `_pages/about.md`. Check the wording, then delete the `[VERIFY]` include after it. |
 
 ## Editing content
 
