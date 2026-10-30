@@ -20,7 +20,6 @@ grep -rn "VERIFY" _config.yml _pages _publications _talks
 | Photo | Add `images/profile.jpg` (the Google Scholar photo), then set `avatar: "profile.jpg"` in `_config.yml`. |
 | Public email | `email:` in `_config.yml`. It then appears in the sidebar and on the home page. |
 | CV PDF | Upload it as `files/Huo_CV.pdf`. The CV links switch on automatically once the file exists. |
-| Official degree name; years of the Cambridge degrees | `_pages/cv.md` |
 | Research paragraph (draft) | `_pages/about.md`. Check the wording, then delete the `[VERIFY]` include after it. |
 | Bouchet honour society name and year; Weiss Prize, Parke Prize details | `_pages/cv.md` |
 | SIAM Annual Meeting 2026 talk title, other talks | `_talks/` |

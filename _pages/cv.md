@@ -11,9 +11,8 @@ redirect_from:
 
 ## Education
 
-- **PhD in Physics** {% include verify.html note="official degree name" %}, George Washington University, expected May 2027. Columbian Distinguished Fellow. Advisor: Neil F. Johnson.
-- **MMath (Part III of the Mathematical Tripos)**, Pembroke College, University of Cambridge, {% include verify.html note="year" %}
-- **BA in Physics (Natural Sciences Tripos)**, Pembroke College, University of Cambridge, {% include verify.html note="year" %}; MA (Cantab) {% include verify.html note="year" %}
+- **PhD in Physics**, George Washington University, expected May 2027. Columbian Distinguished Fellow. Advisor: Neil F. Johnson.
+- **MMath (Part III of the Mathematical Tripos)** and **BA in Physics (Natural Sciences Tripos)**, Pembroke College, University of Cambridge, 2021; MA (Cantab), 2025
 
 ## Awards and fellowships
 
