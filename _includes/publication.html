@@ -1,14 +1,13 @@
 {% comment %}
   One publication entry. Parameter: pub (a document from _publications/).
-  The author's own name (author.citation_name in _config.yml) is set in bold.
+  Only the title is emphasised, so each entry has a single anchor when scanning the list.
   The title links to the publisher page if given, otherwise the DOI, otherwise arXiv.
 {% endcomment %}{% assign pub = include.pub %}
-{% capture me_bold %}<strong>{{ site.author.citation_name }}</strong>{% endcapture %}
 {% assign main_link = false %}
 {% if pub.publisher_url %}{% assign main_link = pub.publisher_url %}{% elsif pub.doi %}{% assign main_link = pub.doi | prepend: "https://doi.org/" %}{% elsif pub.arxiv %}{% assign main_link = pub.arxiv | prepend: "https://arxiv.org/abs/" %}{% endif %}
 <li class="pub" id="{{ pub.slug }}">
   <span class="pub__title">{% if main_link %}<a href="{{ main_link }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</span>
-  <span class="pub__authors">{{ pub.authors | replace: site.author.citation_name, me_bold }}</span>
-  <span class="pub__venue">{% if pub.venue %}<em>{{ pub.venue }}</em>{% if pub.volume %} <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.details %}, {{ pub.details }}{% endif %}{% elsif pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a>{% endif %} ({{ pub.year }}){% if pub.publisher_url %} · <a href="{{ pub.publisher_url }}">{{ pub.publisher_label | default: "Publisher" }}</a>{% endif %}{% if pub.doi %} · <a href="https://doi.org/{{ pub.doi }}">DOI</a>{% endif %}{% if pub.arxiv and pub.venue %} · <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv</a>{% endif %}{% if pub.pdf %} · <a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}{% if pub.verify %} {% include verify.html note=pub.verify %}{% endif %}</span>
+  <span class="pub__authors">{{ pub.authors }}</span>
+  <span class="pub__venue">{% if pub.venue %}<em>{{ pub.venue }}</em>{% if pub.volume %} {{ pub.volume }}{% endif %}{% if pub.details %}, {{ pub.details }}{% endif %}{% elsif pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv:{{ pub.arxiv }}</a>{% endif %} ({{ pub.year }}){% if pub.publisher_url %} · <a href="{{ pub.publisher_url }}">{{ pub.publisher_label | default: "Publisher" }}</a>{% endif %}{% if pub.doi %} · <a href="https://doi.org/{{ pub.doi }}">DOI</a>{% endif %}{% if pub.arxiv and pub.venue %} · <a href="https://arxiv.org/abs/{{ pub.arxiv }}">arXiv</a>{% endif %}{% if pub.pdf %} · <a href="{{ pub.pdf | relative_url }}">PDF</a>{% endif %}{% if pub.verify %} {% include verify.html note=pub.verify %}{% endif %}</span>
   {% if pub.note %}<span class="pub__note">{{ pub.note | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>{% endif %}
 </li>
