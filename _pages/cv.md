@@ -32,7 +32,7 @@ redirect_from:
 
 ## Refereeing
 
-Referee for *Physical Review Letters*, *Physical Review E* and *Patterns*.
+Referee for *Physical Review Letters*, *Physical Review E*, and *Patterns*.
 
 ## Research and teaching
 
