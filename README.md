@@ -23,7 +23,7 @@ grep -rn "VERIFY" _config.yml _pages _publications _talks
 | Official degree name; years of the Cambridge degrees | `_pages/cv.md` |
 | Research paragraph (draft) | `_pages/about.md`. Check the wording, then delete the `[VERIFY]` include after it. |
 | TA years, course numbers and semesters | `_pages/teaching.md` |
-| Columbian Distinguished Fellowship years; Bouchet honour society name and year; Weiss Prize, Parke Prize details | `_pages/cv.md` |
+| Bouchet honour society name and year; Weiss Prize, Parke Prize details | `_pages/cv.md` |
 | SIAM Annual Meeting 2026 talk title, other talks | `_talks/` |
 
 ## Editing content
