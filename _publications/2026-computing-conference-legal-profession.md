@@ -8,4 +8,5 @@ year: 2026
 date: 2026-09-02
 hide: true                            # not listed on the Publications page
 doi: "10.1007/978-3-032-31755-1_12"
+arxiv: "2603.23857"                   # arXiv version of this chapter
 ---
