@@ -30,8 +30,6 @@ redirect_from:
 {% for talk in talks %}{% include talk.html talk=talk %}{% endfor %}
 </ul>
 
-{% include verify.html note="departmental talk: title, date, seminar series" %}
-
 ## Refereeing
 
 Referee for *Physical Review Letters*, *Physical Review E* and *Patterns*.
