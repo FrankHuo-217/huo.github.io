@@ -22,6 +22,10 @@ redirect_from:
 - **Weiss Prize** {% include verify.html note="awarding body and year" %}
 - **Parke Prize** {% include verify.html note="awarding body and year" %}
 
+## Refereeing
+
+Referee for *Physical Review Letters*, *Physical Review E* and *Patterns*.
+
 ## Research, teaching and talks
 
 - [Publications]({{ "/publications/" | relative_url }}): one book (Oxford University Press), journal articles including two in *Physical Review Letters*, and preprints.
