@@ -62,6 +62,7 @@ publisher_url: "https://..."          # optional
 pdf: "/files/paper.pdf"               # optional
 note: "One-line note shown in italics" # optional
 equal_contribution: true              # optional; adds the "† Equal contribution" footnote. Put † after the names in `authors`.
+hide: true                            # optional; keeps the file but leaves it off the Publications page
 ---
 ```
 

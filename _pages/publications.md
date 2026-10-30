@@ -9,7 +9,7 @@ Also on [Google Scholar]({{ site.author.googlescholar }}).
 {: .page-lede}
 
 {% for category in site.publication_category %}
-  {% assign pubs = site.publications | where: "category", category[0] | sort: "date" | reverse %}
+  {% assign pubs = site.publications | where: "category", category[0] | where_exp: "p", "p.hide != true" | sort: "date" | reverse %}
   {% if pubs.size == 0 %}{% continue %}{% endif %}
   {% if category[1].collapsed %}
 <details class="pubs-collapsed">

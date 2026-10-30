@@ -5,4 +5,5 @@ category: preprints
 arxiv: "2508.01097"
 year: 2025
 date: 2025-08-01
+hide: true                            # not listed on the Publications page
 ---

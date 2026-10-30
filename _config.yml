@@ -49,7 +49,7 @@ publication_category:
   articles:
     title: 'Journal articles'
   preprints:
-    title: 'Preprints'
+    title: 'Selected preprints'
   other:
     title: 'Other publications'
     collapsed: true
