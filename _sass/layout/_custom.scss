@@ -200,3 +200,19 @@ body {
 .cv-download {
   font-size: $type-size-4;
 }
+
+/* Theme toggle: thin-line sun in light mode, moon in dark mode. */
+#theme-toggle .theme-icon {
+  display: block;
+  width: 19px;
+  height: 19px;
+}
+
+#theme-toggle .theme-icon--moon,
+html[data-theme="dark"] #theme-toggle .theme-icon--sun {
+  display: none;
+}
+
+html[data-theme="dark"] #theme-toggle .theme-icon--moon {
+  display: block;
+}
