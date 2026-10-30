@@ -22,7 +22,6 @@ grep -rn "VERIFY" _config.yml _pages _publications _talks
 | CV PDF | Upload it as `files/Huo_CV.pdf`. The CV links switch on automatically once the file exists. |
 | Official degree name; years of the Cambridge degrees | `_pages/cv.md` |
 | Research paragraph (draft) | `_pages/about.md`. Check the wording, then delete the `[VERIFY]` include after it. |
-| TA years, course numbers and semesters | `_pages/teaching.md` |
 | Bouchet honour society name and year; Weiss Prize, Parke Prize details | `_pages/cv.md` |
 | SIAM Annual Meeting 2026 talk title, other talks | `_talks/` |
 

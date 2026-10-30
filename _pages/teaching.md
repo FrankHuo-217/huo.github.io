@@ -4,29 +4,11 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Teaching Assistant, Department of Physics, George Washington University
+I have taught physics at George Washington University as a teaching assistant throughout my PhD, and in 2022 I received the Bennhold Family Award for best graduate-student teaching. Most of my teaching has been in Nonlinear Dynamics (PHYS 3127), a final-year undergraduate course led by Prof. Neil F. Johnson that broadly follows Strogatz's *Nonlinear Dynamics and Chaos*. I have also taught General Physics.
+{: .page-intro}
 
-Five years, {% include verify.html note="years, e.g. 2021–2026" %}
-{: .page-lede}
+I attend every class, where lecturing alternates with group work on example problems; I move between the groups, guiding their discussions and answering questions. I grade the weekly quizzes, and now write the quiz questions as well. After each quiz I take five to ten minutes in class to go through it in front of everyone, pointing out the common mistakes, so that students see where they went wrong before the course moves on.
 
-### Courses
+I run office hours like the Cambridge supervisions I was taught through, rather than taking questions one by one from a queue. I go over the material students are unsure of, much like a short tutorial, then set them problems to work through on the spot, and we discuss their answers together. In class, in quizzes and in office hours, my aim is the same: students work through problems themselves, and I find where their understanding breaks down.
 
-- **Nonlinear Dynamics.** Instructor: Prof. Neil F. Johnson.
-- **General Physics.**
-
-{% include verify.html note="course numbers and semesters for each course" %}
-
-### Role
-
-- **Office hours as supervisions.** Having been taught through Cambridge's supervision system myself, I run office hours as small-group supervisions: students work through problems themselves, and I diagnose where their understanding breaks down.
-- **Class discussions.** I led class discussions in Nonlinear Dynamics.
-- **Assessment.** I graded exams and problem sets.
-
-### Recognition
-
-- **Bennhold Family Award** for best graduate-student teaching, 2022.
-- Student ratings consistently above the department average.
-
-### Prepared to teach
-
-Calculus, linear algebra, ordinary differential equations and probability.
+I am also prepared to teach mathematics courses, including calculus, linear algebra, ordinary differential equations and probability.

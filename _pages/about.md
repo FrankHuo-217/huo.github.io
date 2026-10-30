@@ -16,7 +16,7 @@ redirect_from:
 </p>
 
 I am a PhD candidate in Theoretical Physics at George Washington University, where I hold a Columbian Distinguished Fellowship, and expect to complete my PhD in May 2027. I am fortunate to be advised by Prof. Neil F. Johnson. Before my PhD, I studied at Pembroke College, University of Cambridge, where I received a BA in Physics (Natural Sciences Tripos) and an MMath (Part III of the Mathematical Tripos).
-{: .home-intro}
+{: .page-intro}
 
 I develop exactly solvable models of collective dynamics in complex systems. I currently focus on the dynamics of Transformer-based AI, from the microscopic scale of a single attention head to the coarse-grained level of a whole conversation. In recent work, together with Prof. Johnson, we show from first principles that the attention mechanism sets up a competition between tokens during text generation, analogous to two-body interactions in a multispin system, which leads to token repetition and tipping between outputs ([*AIP Advances*, 2026](https://doi.org/10.1063/5.0296911)); trace how this competition propagates through the layers of a Transformer ([arXiv, 2026](https://arxiv.org/abs/2607.25279)); and test a simple tipping criterion against observations of real models ([*Patterns*, 2026](https://doi.org/10.1016/j.patter.2026.101666)). This work has received [press coverage]({{ "/publications/#in-the-media" | relative_url }}), including in *The Independent*, *El País*, *Live Science* and *Nautilus*.
 
