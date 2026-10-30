@@ -24,4 +24,4 @@ Earlier in my PhD, I developed theories of heterogeneous assembly and fragmentat
 
 Teaching is one of the most rewarding parts of my work. In 2022 I received the Bennhold Family Award for best graduate-student teaching at George Washington University, where I have taught physics as a teaching assistant since 2021. [More on my teaching]({{ "/teaching/" | relative_url }}).
 
-Outside research, I enjoy history and culture. I play the piano and go to concerts and operas, and I look for a kind of universality in history: the correspondences between developments in art, music and science.
+Outside research, I enjoy history and culture. I play the piano, go to concerts and operas, and constantly look for a kind of universality in our civilization through history: the correspondences between developments in art, music, science and more.
