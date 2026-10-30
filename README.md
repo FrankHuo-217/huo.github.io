@@ -37,7 +37,7 @@ Copy an existing file in `_publications/` and edit its front matter:
 ```yaml
 ---
 title: "Title of the paper"
-authors: "F. Y. Huo, N. F. Johnson"   # "F. Y. Huo" is set in bold automatically
+authors: "F. Y. Huo, N. F. Johnson"
 category: articles                    # book | articles | preprints | other
 venue: "Phys. Rev. Lett."
 volume: "133"
