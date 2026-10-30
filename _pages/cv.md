@@ -39,4 +39,4 @@ Referee for *Physical Review Letters*, *Physical Review E* and *Patterns*.
 ## Research and teaching
 
 - [Publications]({{ "/publications/" | relative_url }}): one book (Oxford University Press), journal articles including two in *Physical Review Letters*, and preprints.
-- [Teaching]({{ "/teaching/" | relative_url }}): five years as a teaching assistant in physics, including Nonlinear Dynamics.
+- [Teaching]({{ "/teaching/" | relative_url }}): teaching assistant in physics since 2021, in four courses from introductory physics to Nonlinear Dynamics.
