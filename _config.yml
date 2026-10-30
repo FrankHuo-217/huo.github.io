@@ -21,7 +21,7 @@ repository               : "yingjiehuo/yingjiehuo.github.io"
 author:
   # Head-and-shoulders photo, stored in /images/. Replace profile.png with the photo
   # from Google Scholar (e.g. images/profile.jpg) and update this line.
-  avatar           : &avatar "profile.png"
+  avatar           : &avatar "profile.jpg"
   name             : *name
   citation_name    : "F. Y. Huo" # Set in bold in publication lists
   pronouns         :

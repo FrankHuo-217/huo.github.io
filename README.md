@@ -17,7 +17,6 @@ grep -rn "VERIFY" _config.yml _pages _publications _talks
 
 | What | Where to change it |
 | --- | --- |
-| Photo | Add `images/profile.jpg` (the Google Scholar photo), then set `avatar: "profile.jpg"` in `_config.yml`. |
 | Public email | `email:` in `_config.yml`. It then appears in the sidebar and on the home page. |
 | Research paragraph (draft) | `_pages/about.md`. Check the wording, then delete the `[VERIFY]` include after it. |
 
@@ -33,6 +32,7 @@ All content is Markdown, with settings in YAML front matter at the top of each f
 | Talks (listed on the CV page) | one file per talk in `_talks/` |
 | CV | `_pages/cv.md`, and `files/Huo_CV.pdf` for the download. Upload only the website version of the PDF (the one without References), since the file is public. |
 | Sidebar, site title, links, research interests line (`tagline`) | `_config.yml` |
+| Photo | `images/profile.jpg`, a square image (600 × 600 works well); the site shows it as a circle. |
 | Header menu | `_data/navigation.yml` |
 
 ### Add a publication
